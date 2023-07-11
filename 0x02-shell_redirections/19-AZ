@@ -1,3 +1,2 @@
 #!/bin/bash
-
-read -p "Enter input: " input; echo "Modified input: ${input//A/Z}"
+tr Ac Ze
